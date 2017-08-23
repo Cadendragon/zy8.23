@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#box {
+			width: 200px;
+			height: 200px;
+			background: red;
+		}
+	</style>
+<script>
+	window.onload = function(){
+		var oBox = document.getElementById('box');
+		oBox.onclick = function(){
+			this.style.background = 'green';
+			alert(this.innerHTML);	
+		}
+	}
+</script>
+</head>
+<body>
+	<div id="box">写了你他妈一晚上</div>
+</body>
+</html>

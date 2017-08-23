@@ -1,0 +1,18 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-23 21:28:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-23 21:28:41
+*/
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: red;
+}
+
+#box {
+	width: 200px;
+	height: 200px;
+	background: green;
+	border: yellow 10px solid;
+}
